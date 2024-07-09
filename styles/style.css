@@ -41,7 +41,7 @@
 }
 
 .product-list {
-    width: clamp(21.875rem, 3.9683rem + 76.4021vw, 67rem);;
+    width: clamp(21.875rem, 3.9683rem + 76.4021vw, 67rem);
     margin-top: -25px;
     display: flex;
     flex-direction: column;
