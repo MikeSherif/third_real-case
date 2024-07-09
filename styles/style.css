@@ -43,6 +43,9 @@
 .product-list {
     width: 1072px;
     margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .product-list-item {
