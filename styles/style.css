@@ -117,6 +117,15 @@
     cursor: pointer;
 }
 
+@media (width <= 600px) {
+    .sculpture_orientation {
+        flex-direction: column;
+    }
+
+    .product-list {
+        margin: 0;
+    }
+}
 
 
 
