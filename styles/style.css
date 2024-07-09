@@ -120,10 +120,28 @@
 @media (width <= 600px) {
     .sculpture_orientation {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .sculpture__links {
+        width: clamp(21.875rem, 3.9683rem + 76.4021vw, 67rem);
+        height: 100px;
+    }
+
+    .sculpture__links-list {
+        height: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 0;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
     }
 
     .product-list {
         margin: 0;
+        padding: 0;
     }
 }
 
